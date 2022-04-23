@@ -282,7 +282,7 @@ def test():
 		keys = generate_keys()
 		priv = keys['privateKey']
 		pub = keys['publicKey']
-		message = "My name is Ryan.  Here is some french text:  Maître Corbeau, sur un arbre perché.  Now some Chinese: 鋈 晛桼桾 枲柊氠 藶藽 歾炂盵 犈犆犅 壾, 軹軦軵 寁崏庲 摮 蟼襛 蝩覤 蜭蜸覟 駽髾髽 忷扴汥 "
+		message = "This is the message I want to encrypt"
 		cipher = encrypt(pub, message)
 		plain = decrypt(priv, cipher)
 
