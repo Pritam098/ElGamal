@@ -291,7 +291,6 @@ def test():
 
 
 if __name__=='__main__':
-	test()
 	cipherKeys=generate_keys(512,32)
 	cipher = encrypt(cipherKeys['publicKey'], "This is the message I want to encrypt")
 	print(cipher)
